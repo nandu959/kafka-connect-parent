@@ -530,7 +530,7 @@
                             <goal>git-changelog</goal>
                         </goals>
                         <configuration>
-                            <file>${project.build.directory}/CHANGELOG.rst</file>
+                            <file>${project.build.directory}/docs/changelog.rst</file>
                             <templateContent><![CDATA[
 .. csv-table::
     :header: "Date","Commit","Author","Message"
